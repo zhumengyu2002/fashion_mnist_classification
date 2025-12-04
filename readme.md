@@ -45,9 +45,7 @@ pip install -r requirements.txt
 
 （2）准备结果目录：创建 results/ 文件夹用于保存输出图片。
 
-（3）运行主程序：```
-python main.py
-```
+（3）运行主程序：python main.py
 程序将自动：
 - 下载Fashion-MNIST数据集
 - 训练并评估SVM（Linear和RBF核）
@@ -63,7 +61,7 @@ python main.py
 | **CNN (LeNet-5)** | **0.8877 (88.77%)** | 约 5-10 分钟 (GPU) | 卷积神经网络 |
 
 > **不同方法性能对比图**：CNN取得了最高的分类准确率。
-results/model_comparison.png
+> ![模型性能对比图](results/model_comparison.png) 
 
 ## 5.2 训练过程可视化
 CNN训练过程：损失函数持续下降，准确率稳步上升，训练过程健康、收敛良好。
