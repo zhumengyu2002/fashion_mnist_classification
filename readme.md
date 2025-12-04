@@ -32,7 +32,9 @@ fashion-mnist-classification/
 └── results/ # 存放运行时生成的图表
 ├── svm_cm.png
 ├── cnn_training.png
+├──confusion_matrix.png
 └── model_comparison.png
+
 ```
 
 ## 4.运行步骤
@@ -45,7 +47,7 @@ pip install -r requirements.txt
 
 （2）准备结果目录：创建 results/ 文件夹用于保存输出图片。
 
-（3）运行主程序：python main.py
+（3）运行主程序：python main.py  
 程序将自动：
 - 下载Fashion-MNIST数据集
 - 训练并评估SVM（Linear和RBF核）
