@@ -60,16 +60,16 @@ pip install -r requirements.txt
 | **SVM (Linear 核)** | 0.8305 (83.05%) | 约 5.53 秒 | 线性核函数 |
 | **CNN (LeNet-5)** | **0.8877 (88.77%)** | 约 5-10 分钟 (GPU) | 卷积神经网络 |
 
-> **不同方法性能对比图**：CNN取得了最高的分类准确率。
+ **不同方法性能对比图**：CNN取得了最高的分类准确率。
 > ![模型性能对比图](results/model_comparison.png) 
 
 ## 5.2 训练过程可视化
 CNN训练过程：损失函数持续下降，准确率稳步上升，训练过程健康、收敛良好。
-cnn_training.png
+> ![CNN训练可视化](results/cnn_training.png) 
 
 ## 5.3 混淆矩阵分析
 CNN混淆矩阵：模型在“T-shirt/top”、“Shirt”、“Pullover”、“Coat”、“Dress”等上衣类别间存在混淆， 这与它们在灰度图像中的视觉相似性一致。而“Trouser”、“Bag”、“Sandal”等特征独特的类别几乎被完美分类。
-results/plot_2025-12-04 21-15-50_5.png
+> ![混淆矩阵分析](results/plot_2025-12-04 21-15-50_5.png)
 
 
 ## 6.实验分析与总结
