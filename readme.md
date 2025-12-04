@@ -16,7 +16,7 @@ matplotlib >= 3.3.4
 numpy >= 1.19.5
 tqdm >= 4.62.0
 
-### 3.项目结构
+## 3.项目结构
 ```
 fashion-mnist-classification/
 ├── README.md # 本文件
@@ -32,6 +32,7 @@ fashion-mnist-classification/
 ├── svm_cm.png
 ├── cnn_training.png
 └── model_comparison.png
+```
 
 ## 4.运行步骤
 （1）克隆项目并安装依赖：
