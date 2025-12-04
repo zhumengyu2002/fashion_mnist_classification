@@ -48,7 +48,7 @@ pip install -r requirements.txt
 （2）准备结果目录：创建 results/ 文件夹用于保存输出图片。
 
 （3）运行主程序：python main.py  
-程序将自动：
+  程序将自动：
 - 下载Fashion-MNIST数据集
 - 训练并评估SVM（Linear和RBF核）
 - 训练并评估CNN（LeNet-5）
