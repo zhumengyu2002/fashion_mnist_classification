@@ -18,18 +18,19 @@ tqdm >= 4.62.0
 
 ## 3.项目结构
 fashion-mnist-classification/
-├── README.md               # 本文件
-├── requirements.txt        # 依赖包列表
-├── main.py                 # 主程序入口，协调整个实验流程
-├── config.py               # 配置文件（参数设置）
-├── svm_classifier.py       # SVM分类器的实现与评估
-├── cnn_classifier.py       # CNN分类器的训练与评估
-├── utils.py                # 工具函数（可视化、报告生成等）
-├── cnn_model.py            # LeNet-5等CNN模型定义
-└── results/                # 存放运行时生成的图表
-    ├── svm_cm.png
-    ├── cnn_training.png
-    └── model_comparison.png
+├── README.md # 本文件
+├── requirements.txt # 依赖包列表
+├── main.py # 主程序入口，协调整个实验流程
+├── config.py # 配置文件（参数设置）
+├── svm_classifier.py # SVM分类器的实现与评估
+├── cnn_classifier.py # CNN分类器的训练与评估
+├── utils.py # 工具函数（可视化、报告生成等）
+├── models/
+│ └── cnn_model.py # LeNet-5等CNN模型定义
+└── results/ # 存放运行时生成的图表（需自行创建）
+├── svm_cm.png
+├── cnn_training.png
+└── model_comparison.png
 
 ## 4.运行步骤
 （1）克隆项目并安装依赖：
