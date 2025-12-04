@@ -17,6 +17,7 @@ numpy >= 1.19.5
 tqdm >= 4.62.0
 
 ### 3.项目结构
+```
 fashion-mnist-classification/
 ├── README.md # 本文件
 ├── requirements.txt # 依赖包列表
