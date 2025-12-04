@@ -37,13 +37,17 @@ fashion-mnist-classification/
 
 ## 4.运行步骤
 （1）克隆项目并安装依赖：
-git clone <你的项目仓库地址>
+```
+git clone https://github.com/zhumengyu2002/fashion_mnist_classification.git
 cd fashion-mnist-classification
 pip install -r requirements.txt
+```
 
 （2）准备结果目录：创建 results/ 文件夹用于保存输出图片。
 
-（3）运行主程序：python main.py
+（3）运行主程序：```
+python main.py
+```
 程序将自动：
 - 下载Fashion-MNIST数据集
 - 训练并评估SVM（Linear和RBF核）
