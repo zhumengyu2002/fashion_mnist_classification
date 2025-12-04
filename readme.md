@@ -8,6 +8,7 @@
 
 ## 2. 环境依赖
 运行本项目需要以下Python库（主要版本）：
+```
 Python >= 3.8
 torch >= 1.9.0 
 torchvision >= 0.10.0
@@ -15,6 +16,7 @@ scikit-learn >= 0.24.2
 matplotlib >= 3.3.4
 numpy >= 1.19.5
 tqdm >= 4.62.0
+```
 
 ## 3.项目结构
 ```
